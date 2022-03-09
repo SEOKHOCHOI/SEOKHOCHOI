@@ -15,6 +15,30 @@
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/>
   </div>
 </div>
+title: "타이틀"
+author: "팀"
+date: '2022.01.28 (Fri.)'
+output: 
+  html_document:
+    fig_height: 6
+    fig_width: 10
+    highlight: haddock
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  word_document:
+    toc: yes
+  pdf_document:
+    toc: yes
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+[출처] [R] MarkDown Code Block|작성자 박카스
 <style>
 .list-group-item.active,.list-group-item.active:focus,.list-group-item.active:hover{
 background-color:black;
